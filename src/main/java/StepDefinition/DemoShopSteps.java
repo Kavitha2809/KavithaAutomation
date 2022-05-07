@@ -21,7 +21,7 @@ WebDriver driver;
 
 	@Given("^Navigate to Testshop$")
 	public void navigate_to_Testshop() {
-		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\chromedriver");
+		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.get("https://testscriptdemo.com/");
 		
